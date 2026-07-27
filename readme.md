@@ -202,22 +202,6 @@ const symptomCheckSchema = new mongoose.Schema({
 
 ---
 
-## Resume Bullets (Interview-Ready)
-
-- Engineered a full-stack medical triage platform using React and Node.js, leveraging the Google Gemini API to convert natural language symptoms into structured, multi-turn medical urgency assessments
-- Designed a stateful, conversational AI flow that injects prior symptoms and follow-up questions into each new prompt, allowing Gemini to refine its assessment across multiple user replies tied to a single record
-- Integrated Google Maps JavaScript and Places APIs with browser Geolocation to dynamically surface and de-duplicate nearby clinics and hospitals based on the user's real-time location
-- Architected a secure RESTful API with Express and MongoDB, implementing JWT authentication, bcrypt password hashing, Helmet security headers, and tiered rate limiting to protect user health data and control third-party API costs
-- Implemented per-user symptom history tracking in MongoDB with Mongoose, enabling users to review past assessments and see aggregate health stats on a live dashboard
-
----
-
-## One-Line Pitch
-
-*"A web app that uses AI to help users decide if their symptoms need emergency care, a clinic visit, or home rest — with real-time nearby clinic recommendations."*
-
----
-
 ## Security & Compliance Considerations
 
 ### Data Privacy
