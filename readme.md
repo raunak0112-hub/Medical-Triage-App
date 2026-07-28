@@ -222,11 +222,3 @@ const symptomCheckSchema = new mongoose.Schema({
 - Malformed AI output and Mongoose validation errors are caught and surfaced as clean, user-facing error messages rather than raw stack traces
 
 ---
-
-## Future Enhancements
-- Multi-language support
-- Voice input for symptoms
-- Integration with telemedicine platforms
-- PWA / mobile app version
-- Admin dashboard for usage analytics
-- RAG-lite grounding of the AI's assessments in public health guideline documents
